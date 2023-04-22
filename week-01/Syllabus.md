@@ -8,7 +8,7 @@
 
 - **Teaching Team**
 
-  [Chris](./Chris.jpg) &&  [Neel](./Neel.jpeg) && [Clinton](./Clinton.jpg)           
+  [Chris](./image/Chris.jpg) &&  [Neel](./image/Neel.jpeg) && [Clinton](./image/Clinton.jpg)           
 
 - **Online Course Essentials**
 
@@ -106,11 +106,11 @@
 
     Roberts, Eric. *Programming Abstractions in C++*. ISBN 978-0133454840.
 
-    You can either purchase a physical copy or use the [course reader](https://web.stanford.edu/class/cs106b/resources/textbook.html) . Recommended readings for each lecture will be posted on our lecture schedule.
+    You can either purchase a physical copy or use the [course reader](../Reader-Beta-2012.pdf). Recommended readings for each lecture will be posted on our lecture schedule.
 
   - Software
 
-    The official CS106 programming environment is **Qt Creator**, which is an editor bundled with C++ compiler and libraries. The software runs on Windows, Mac, and Linux. The [Qt Installation Guide](https://web.stanford.edu/dept/cs_edu/resources/qt/) has instructions for installing the tools onto your computer.
+    The official CS106 programming environment is **Qt Creator**, which is an editor bundled with C++ compiler and libraries. The software runs on Windows, Mac, and Linux. The [Qt Installation Guide](../Qt/Resources for Qt Creator.md) has instructions for installing the tools onto your computer.
 
   - Getting Help
 
