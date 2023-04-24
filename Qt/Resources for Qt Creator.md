@@ -26,10 +26,10 @@ Students in the CS106B/courses use **Qt Creator** to write C++ programs. Qt Crea
 
   Here are some guides on using these tools.
 
-  - [Quick guide to Qt Creator](https://web.stanford.edu/dept/cs_edu/resources/qt/using-qt)
-  - This 📦 [blank project](https://web.stanford.edu/dept/cs_edu/resources/qt/BlankProject.zip) is a template for creating a new CS106 project
-  - [Configuring the Qt debugging helper](https://web.stanford.edu/dept/cs_edu/resources/qt/debugging-helper)
-  - [Recommended Qt Creator settings](https://web.stanford.edu/dept/cs_edu/resources/qt/recommended-settings)
-  - [Troubleshooting common Qt Creator project problems](https://web.stanford.edu/dept/cs_edu/resources/qt/troubleshooting)
-  - [Common build/run/debug issues](https://web.stanford.edu/dept/cs_edu/resources/qt/commonissues.html)
-  - [Debugger tutorial](https://cs106b.stanford.edu/assignments/0-namehash/DebuggerTutorial.pdf) from CS106B Assignment 0
+  - [Quick guide to Qt Creator](./Basic of using Qt Creator.md)
+  - This 📦 [blank project](./BlankProject.zip) is a template for creating a new CS106 project
+  - [Configuring the Qt debugging helper](./Viewing Stanford collections in the debugger.md)
+  - [Recommended Qt Creator settings](./Recommended Settings for Qt Creator.md)
+  - [Troubleshooting common Qt Creator project problems](./Troubleshooting Qt Creator project issues.md)
+  - [Common build/run/debug issues](./Common BuildRunDebug Issues.md)
+  - [Debugger tutorial](./DebuggerTutorial.pdf) from CS106B Assignment 0
