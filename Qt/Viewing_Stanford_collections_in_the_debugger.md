@@ -6,7 +6,7 @@ When debugging a program that uses variables of Stanford collection type (Vector
 
 - **Automatic install within the CS106 package**
 
-  The custom debugging helper is included in our [package of CS106 specific components](./Install Qt Creator on Windows.md) that you previously installed. When installing the CS106 package, it copies the debugging helper into the appropriate place so that Qt Creator will automatically use it. In most cases, this effort is successful, but if it didn't take, we have instructions below on how you can manually configure it. You may also need to manually configure the helper if an update to Qt Creator wipes out your previous configuration.
+  The custom debugging helper is included in our [package of CS106 specific components](./Install_Qt_Creator_on_Windows.md) that you previously installed. When installing the CS106 package, it copies the debugging helper into the appropriate place so that Qt Creator will automatically use it. In most cases, this effort is successful, but if it didn't take, we have instructions below on how you can manually configure it. You may also need to manually configure the helper if an update to Qt Creator wipes out your previous configuration.
 
 - **Check if debugger helpers is configured**
 

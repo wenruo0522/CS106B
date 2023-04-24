@@ -2,7 +2,7 @@
 
 ***
 
-This page contains a list of common issues students may encounter when trying to build, run, or debug their code. If you're stuck on an issue, try searching this page using Ctrl+F (Command+F on Mac) to jump quickly to the text matching the error message or description of the issue you are having. You can also check out the [Qt troubleshooting guide](./Troubleshooting Qt Creator project issues.md) if you're having issues with Qt Creator.
+This page contains a list of common issues students may encounter when trying to build, run, or debug their code. If you're stuck on an issue, try searching this page using Ctrl+F (Command+F on Mac) to jump quickly to the text matching the error message or description of the issue you are having. You can also check out the [Qt troubleshooting guide](./Troubleshooting_Qt_Creator_project_issues.md) if you're having issues with Qt Creator.
 
 - **If you're emailing or posting your issue on Ed**
 
@@ -23,7 +23,7 @@ This page contains a list of common issues students may encounter when trying to
 
   > **Build warnings: I get tons of yellow warning flags all over my code, including for code in the library that I did not write myself.**
   >
-  > - Recent versions of Qt Creator have added a feature called a "code model" that performs style checking on your code as you write it. This is sometimes useful, but we think the checker is too picky and gives warnings about code that is not dangerous. You can safely ignore these unnecessary warnings. If you'd like to make the warnings go away, change the Analyzer to our [Qt Creator Recommended Settings](./Recommended Settings for Qt Creator.md).
+  > - Recent versions of Qt Creator have added a feature called a "code model" that performs style checking on your code as you write it. This is sometimes useful, but we think the checker is too picky and gives warnings about code that is not dangerous. You can safely ignore these unnecessary warnings. If you'd like to make the warnings go away, change the Analyzer to our [Qt Creator Recommended Settings](./Recommended_Settings_for_Qt_Creator.md).
   >
   > **Build error: Build progress meter is solid red, `QFileSystemEngine::currentPath: getcwd() failed`**
   >
@@ -117,7 +117,7 @@ This page contains a list of common issues students may encounter when trying to
   >
   >   The best way to proceed on diagnosing an execution error is to **use the debugger**. Instead of clicking the plain green triangle "Play" to run your program, click the green triangle with a bug on it. This runs your program under the debugger. When your program encounters the error which caused the problem, your program will stop in the debugger and show you where in your code the crash occurred.
   >
-  >   The CS106B Assignment 0 [debugger tutorial](https://cs106b.stanford.edu/assignments/0-namehash/DebuggerTutorial.pdf) introduces various strategies about how to use of the debugger – we highly recommend working through the tutorial if you have not already!
+  >   The CS106B Assignment 0 [debugger tutorial](./DebuggerTutorial.pdf) introduces various strategies about how to use of the debugger – we highly recommend working through the tutorial if you have not already!
   >
   >   One possible reason for a program crashing is due to a stack overflow, which is what happens if a recursive function calls itself too many times (you can tell this if you open the debugger and see the same function name repeatedly in your stack frames):
   >

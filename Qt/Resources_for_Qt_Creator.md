@@ -26,10 +26,10 @@ Students in the CS106B/courses use **Qt Creator** to write C++ programs. Qt Crea
 
   Here are some guides on using these tools.
 
-  - [Quick guide to Qt Creator](./Basic of using Qt Creator.md)
+  - [Quick guide to Qt Creator](./Basic_of_using_Qt_Creator.md)
   - This 📦 [blank project](./BlankProject.zip) is a template for creating a new CS106 project
-  - [Configuring the Qt debugging helper](./Viewing Stanford collections in the debugger.md)
-  - [Recommended Qt Creator settings](./Recommended Settings for Qt Creator.md)
-  - [Troubleshooting common Qt Creator project problems](./Troubleshooting Qt Creator project issues.md)
-  - [Common build/run/debug issues](./Common BuildRunDebug Issues.md)
+  - [Configuring the Qt debugging helper](./Viewing_Stanford_collections_in_the_debugger.md)
+  - [Recommended Qt Creator settings](./Recommended_Settings_for_Qt_Creator.md)
+  - [Troubleshooting common Qt Creator project problems](./Troubleshooting_Qt_Creator_project_issues.md)
+  - [Common build/run/debug issues](./Common_Build_Run_Debug_Issues.md)
   - [Debugger tutorial](./DebuggerTutorial.pdf) from CS106B Assignment 0

@@ -2,7 +2,7 @@
 
 ***
 
-This page contains information on how to resolve common problems with Qt Creator projects. Consider searching this page using Ctrl+F (Command+F on Mac) to jump quickly to the text matching the error message or issue you are having. You may also want to check the [Guide to Common Build/Run/Debug problems](./Common BuildRunDebug Issues.md) if for issues compiling or running your program.
+This page contains information on how to resolve common problems with Qt Creator projects. Consider searching this page using Ctrl+F (Command+F on Mac) to jump quickly to the text matching the error message or issue you are having. You may also want to check the [Guide to Common Build/Run/Debug problems](./Common_Build_Run_Debug_Issues.md) if for issues compiling or running your program.
 
 - **How to "re-initialize" a Qt Creator project**
 
@@ -18,11 +18,11 @@ This page contains information on how to resolve common problems with Qt Creator
 
   > **I installed Qt Creator previously. Must I reinstall or can I use my existing installation?**
   >
-  > - You should install the latest. Our projects are written to work with the latest version and the most recent fixes. Uninstall your existing Qt, and follow the steps in our [QT install instructions](./Resources for Qt Creator.md).
+  > - You should install the latest. Our projects are written to work with the latest version and the most recent fixes. Uninstall your existing Qt, and follow the steps in our [QT install instructions](./Resources_for_Qt_Creator.md).
   >
   > **When I open a new project, the "Configure Project" options are empty. Error: `No kits available`.**
   >
-  > - A "kit" is a C++ compiler. If no kits are available, your Qt installation may be missing essential components. When installing Qt, you must select the appropriate component (e.g. MinGW or macOS) for your platform, as specified in our installation instructions. If you fail/forget to select this component, the observed symptom is "no kits available". To fix this, you'll need to reinstall Qt Creator. Delete your existing Qt folder and repeat the steps in our [QT install instructions](./Resources for Qt Creator.md).
+  > - A "kit" is a C++ compiler. If no kits are available, your Qt installation may be missing essential components. When installing Qt, you must select the appropriate component (e.g. MinGW or macOS) for your platform, as specified in our installation instructions. If you fail/forget to select this component, the observed symptom is "no kits available". To fix this, you'll need to reinstall Qt Creator. Delete your existing Qt folder and repeat the steps in our [QT install instructions](./Resources_for_Qt_Creator.md).
   >
   > **When I open a new project, the "Configure Project" options are all grayed out. Error: `No suitable kits found`.**
   >

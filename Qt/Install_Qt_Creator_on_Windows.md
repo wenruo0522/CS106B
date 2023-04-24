@@ -44,7 +44,7 @@
 
   <img src="./image/configure-project.png" alt="configure-project" style="zoom: 50%;" />
 
-  If your Qt Creator shows no kits are available, review the [Qt install instructions](./Resources for Qt Creator.md). You can repeat the steps to re-install Qt if you missed selecting the correct option.
+  If your Qt Creator shows no kits are available, review the [Qt install instructions](./Resources_for_Qt_Creator.md). You can repeat the steps to re-install Qt if you missed selecting the correct option.
 
 - **Build the program**
 
@@ -67,5 +67,5 @@
 
 - **Configure settings(optional)**
 
-  For a better experience, we suggest changing some of the default settings, see our [recommended configuration settings](./Recommended Settings for Qt Creator.md).
+  For a better experience, we suggest changing some of the default settings, see our [recommended configuration settings](./Recommended_Settings_for_Qt_Creator.md).
 

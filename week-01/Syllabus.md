@@ -110,7 +110,7 @@
 
   - Software
 
-    The official CS106 programming environment is **Qt Creator**, which is an editor bundled with C++ compiler and libraries. The software runs on Windows, Mac, and Linux. The [Qt Installation Guide](../Qt/Resources for Qt Creator.md) has instructions for installing the tools onto your computer.
+    The official CS106 programming environment is **Qt Creator**, which is an editor bundled with C++ compiler and libraries. The software runs on Windows, Mac, and Linux. The [Qt Installation Guide](../Qt/Resources_for_Qt_Creator.md) has instructions for installing the tools onto your computer.
 
   - Getting Help
 
