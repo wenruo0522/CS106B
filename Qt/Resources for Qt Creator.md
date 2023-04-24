@@ -9,7 +9,7 @@ Students in the CS106B/courses use **Qt Creator** to write C++ programs. Qt Crea
   We have prepared installation guides for each operating system, choose the one for your computer.
 
   - Install [Qt Creator on Mac OS X](https://web.stanford.edu/dept/cs_edu/resources/qt/install-mac)
-  - Install [Qt Creator on Windows](./Install Qt Creator on Windows.md)
+  - Install [Qt Creator on Windows](./Install_Qt_Creator_on_Windows.md)
   - Install [Qt Creator on Linux](https://web.stanford.edu/dept/cs_edu/resources/qt/install-linux)
 
   This will guide you through downloading and installing Qt and other necessary tools, as well as configuring the CS106-specific package. Please follow the instructions carefully and do not skip steps. In the final step, you will do a build and run cycle on a sample project. If you have successfully done this, your installation is good to go!
