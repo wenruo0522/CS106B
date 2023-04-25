@@ -7,7 +7,7 @@
 *A brief introduction to C++*
 
 - **READINGS**
-  - Text Ch. 1, 2.1-2.4
+  - [Text](../Reader-Beta-2012.pdf) Ch. 1, 2.1-2.4
 - **LINKS**
   - Slides
   - Video on canvas
