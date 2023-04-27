@@ -12,10 +12,9 @@
 
 **LINKS**
 
-- Slides
-- [Lecture Q&A]
+- [Slides](./Lecture1_slides.md)
 - Video on canvas
 
 **CODE**
 
-- [WelcomeCode.zip](./WelcomCode.zip)
+- [WelcomeCode.zip](./WelcomeCode.zip)
