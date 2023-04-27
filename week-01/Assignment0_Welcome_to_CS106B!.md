@@ -20,3 +20,25 @@ Welcome to CS106B! This assignment is designed to help you get your development 
 - **Download starter project**
 
   We will configure a starter project with the files needed for each assignment and post it in the form of a ZIP archive. Download the archive and extract all. Double-click the `NameHash.pro` file to open the project in Qt Creator.
+  
+  - [Starter_code](./Starter_code.zip)
+
+- **Hash your name**
+
+  Open the project in Qt Creator and build and run the program. It will ask you to enter your (preferred) first and last names. When you do, it will give back a hash code, a special number associated with your name. You can think of your hash code as a “fingerprint” associated with your name that's unlikely to be the same as anyone else's fingerprint. **Write this number down**; you'll need it to complete the assignment!
+
+- **Use the debugger**
+
+  Open the [debugger tutorial](../Qt/DebuggerTutorial.pdf). This wonderful guide written by Keith Schwarz walks you through using the debugger on the Name Hash program. Follow along with the step-by-step instructions. At some point, you'll be asked to remember a number. **Write this number down**; you'll need it to complete the assignment!
+
+- **Read about the Honor Code**
+
+  You are required to read our handout [CS106B and the Honor Code](./CS106B_and_the_Honor_Code.md) before submitting assignments. Do this now before proceeding to the final step.
+
+- **Submit**
+
+  Once you've finished everything, fill out the form at the following URL:
+
+  - 📋 Submit Google form: https://forms.gle/4mwp2UmDn4NFCri47
+
+  This form will ask for the numbers from Steps 3 and 4, along with some questions about who you are, why you're awesome, and what your learning environment will look like this quarter. And that's it! You're done!
