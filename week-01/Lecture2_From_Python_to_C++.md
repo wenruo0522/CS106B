@@ -9,9 +9,9 @@
 - **READINGS**
   - [Text](../Reader-Beta-2012.pdf) Ch. 1, 2.1-2.4
 - **LINKS**
-  - Slides
+  - [Slides](./Lecture2_slides.md)
   - Video on canvas
 - **CODE**
-  - [ReferenceExamples.zip](https://web.stanford.edu/class/cs106b/lectures/02-cpp/ReferenceExamples.zip)
-  - [intro-cpp-lecture.zip](https://web.stanford.edu/class/cs106b/lectures/02-cpp/intro-cpp-lecture.zip)
+  - [ReferenceExamples.zip](./ReferenceExamples.zip)
+  - [intro-cpp-lecture.zip](./intro-cpp-lecture.zip)
 

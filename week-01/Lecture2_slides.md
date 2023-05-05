@@ -682,3 +682,116 @@ Slide 14
   - Now, we have provided the `doubleValueWithRef` function with a *reference* to the variable `x`, which means that if the function modifies `x`, it is *actually* modifying the original value – it has a reference to `x`, or it *refers* to it.
 
   - Let's see how this might work, without needing to return a value from `doubleValueWithRef`:
+  
+    ```c++
+    #include<iostream>
+    using namespace std;
+    
+    void doubleValueWithRef(int &x) {
+        x *= 2;
+    }
+    
+    int main() {
+        int myValue = 5;
+        // int result = doubleValueWithRef(myValue); // Error! the function does not return a value now.
+        doubleValueWithRef(myValue);
+    
+        cout << myValue << endl;
+    }
+    ```
+  
+    Output:
+  
+    ```c++
+    10
+    ```
+  
+  - In this case, `myValue` *was* changed by the function, and we did not need a return value.
+  
+  - With references, C++ lets you modify data directly, without copying the data. This is powerful, but as Uncle Ben says, *With great power comes great responsibility.* If you pass a value by reference, you need to understand that the function can modify it directly. We will discuss ways of making this a bit safer in later lectures, but for now know that you need to be somewhat careful and you need to understand it thoroughly.
+  
+  - Passing by reference is most-often used when we want access to the contents of data structures without passing all of the values (which can take time). We will see this when we cover `Vector`s in the next lecture.
+  
+  - One caveat: in order to pass a variable by reference, you need to actually have a variable. The following does not work, for our example above:
+  
+    ```c++
+     doubleValueWithRef(15); // error! cannot pass a literal value by reference
+    ```
+  
+    Compiler error:
+  
+    ```c++
+    ../all-examples.cpp:135:5: error: no matching function for call to 'doubleValueWithRef'
+      doubleValueWithRef(15);
+      ^~~~~~~~~~~~~~~~~~
+    ../all-examples.cpp:11:6: note: candidate function not viable: expects an l-value for 1st argument
+    void doubleValueWithRef(int &x);
+       ^
+    1 error generated.
+    ```
+
+***
+
+Slide 15
+
+### **Header files**
+
+![header-file](./image/header-file.png)
+
+- As C++ has its roots in the C language, it uses C-style *header* files. A header file generally serves to define functions, *classes*, and *structs* (defined later in the course) that will be used by various parts of your program.
+
+- C++ programs often have multiple code files, and if two different C++ files (which have the extension `.cpp` or `.cc`) use the same functions, they may be defined in a header so that each of the `.cpp` files knows about the functions.
+
+- Header files can also make the compilation steps of a large program faster, which is part of the original reason they were used in C.
+
+- Header files should have the `.h` extension (or, less often, `.hpp`).
+
+- It may be the case that a header file is included in a cascading set of files – one header may include another header, and then a `.cpp` file might include both headers. As this could cause certain objects to be defined twice, we use a special directive inside header files to limit this:
+
+  - `#pragma once`
+  - This means that the compiler will only include the file once during compilation.
+  - Example header file, and corresponding C++ file:
+
+- Header:
+
+  ```c++
+  // all-examples.h
+  #pragma once
+  
+  int square(int x);
+  bool even(int value);
+  ```
+
+  C++ file:
+
+  ```c++
+  // all-examples.cpp
+  #include <iostream>
+  #include "all-examples.h"
+  
+  // we can call the functions before the appear in this file, because they've
+  // already been defined in the header file and we've #included it.
+  int main() {
+      cout << square(15) << endl;
+      if (even(42)) {
+          cout << "even" << endl;
+      } else {
+          cout << "odd" << endl;
+      }
+  }
+  
+  int square(int x) {
+      return x * x;
+  }
+  
+  bool even(int v) {
+      return v % 2 == 0;
+  }
+  ```
+
+  Output:
+
+  ```c++
+  225
+  even    
+
