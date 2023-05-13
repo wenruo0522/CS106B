@@ -400,3 +400,61 @@ Slide 13
 #include "strlib.h"
 ```
 
+These are *not* string class functions.
+
+- **endsWith(str, suffix)**
+
+  `startsWith(str, prefix)`: returns `true` if the given string begins or ends with the given prefix/suffix text
+
+- **integerToString(int)**
+
+  **realToString(double)**
+
+  **stringToInteger(str)**
+
+  `stringToReal(str)`: returns a conversion between numbers and strings
+
+- `equalsIgnoreCase(s1, s2)`: `true` if `s1` and `s2` have same `chars`, ignoring casing
+
+- **toLowerCase(str)**
+
+  `toUpperCase(str)`: returns an upper/lowercase version of a string
+
+- `trim(str)`: returns string with surrounding whitespace removed
+
+- Use as follows (remember, not member functions of the `string` class!):
+
+  ```c++
+  if (startsWith(nextString, "Age: ")) {
+    name += integerToString(age) + " years old";
+  }
+  ```
+
+***
+
+Slide 14
+
+### **String recap**
+
+- C++ has both C strings and C++ strings. Both are, under the hood, simply arrays of characters. C++ strings handle details for you automatically, C-strings do not.
+- C++ strings are much more functional and easier to use
+- Many times (but not always), C-strings auto-convert to C++ strings when necessary
+- Characters are single-quoted, single-character ASCII numerical values (be careful when applying arithmetic to them)
+- C++ strings have many functions you can use, e.g., `s.length()` and `s.compare()`
+- The Stanford library also has some extra string functions, which are not part of the string class, but are helpful
+
+***
+
+Slide 15
+
+### **References and Advanced Reading**
+
+- References (in general, not the C++ references!):
+  - Chapter 3 of [Textbook](../Reader-Beta-2012.pdf)
+  - [`<cctype>` functions](http://en.cppreference.com/w/cpp/header/cctype)
+  - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+- Advanced Reading:
+  - [C++ strings vs C strings](http://cs.stmarys.ca/~porter/csc/ref/c_cpp_strings.html)
+  - [String handling in C++](https://en.wikipedia.org/wiki/C%2B%2B_string_handling)
+  - [Stackoverflow: Difference between `string` and `char[\]` types in C++](http://stackoverflow.com/questions/1287306/difference-between-string-and-char-types-in-c)
+
