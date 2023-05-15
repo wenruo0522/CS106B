@@ -1,5 +1,5 @@
-| week 1                                                       | week2 | week3 | week4 | week5 | week6 | week7 | week8 | week9 | week10 |
-| :----------------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
-| [Welcome!](./week-01/Lecture1_Welcome.md) Reading: [Syllabus](./week-01/Syllabus.md) |       |       |       |       |       |       |       |       |        |
-| [From Python to C++](./week-01/Lecture2_From_Python_to_C++.md) [Text](./Reader-Beta-2012.pdf) Ch.1, 2.1-2.4 |       |       |       |       |       |       |       |       |        |
-| Strings Text Ch.3, strlib.h                                  |       |       |       |       |       |       |       |       |        |
+| week 1                                                       | week2                                                        | week3 | week4 | week5 | week6 | week7 | week8 | week9 | week10 |
+| :----------------------------------------------------------- | ------------------------------------------------------------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| [Welcome!](./week-01/Lecture1_Welcome.md) Reading: [Syllabus](./week-01/Syllabus.md) | [Vectors and Grids](https://web.stanford.edu/class/cs106b/lectures/04-vector-grid/) [Text](https://web.stanford.edu/class/cs106b/resources/textbook.html) 5.1, [Vector](https://web.stanford.edu/class/cs106b/library/documentation/Vector.html), [Grid](https://web.stanford.edu/class/cs106b/library/documentation/Grid.html) |       |       |       |       |       |       |       |        |
+| [From Python to C++](./week-01/Lecture2_From_Python_to_C++.md) [Text](./Reader-Beta-2012.pdf) Ch.1, 2.1-2.4 |                                                              |       |       |       |       |       |       |       |        |
+| [Strings](./week-01/Lecture3_ Strings.md) [Text](./Reader-Beta-2012.pdf) Ch.3, [strlib.h](./week-01/strlib.h.md) |                                                              |       |       |       |       |       |       |       |        |
